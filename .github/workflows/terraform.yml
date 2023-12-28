@@ -21,6 +21,7 @@ on:
 env:
   TF_DIR: 'src'
   TF_VAR_org_id: '${{ secrets.TF_VAR_org_id }}'
+  TF_VAR_google_user_email: '${{ secrets.TF_VAR_google_user_email }}'
 jobs:
   Terraforming:
     runs-on: ubuntu-latest
