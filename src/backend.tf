@@ -1,6 +1,6 @@
 terraform {
   backend "gcs" {
-    bucket = "state-backend-6d631b"
+    bucket = "state-backend-48d633"
     prefix = "terraform/states/gcp-terraform-experiment-folder"
   }
 }
